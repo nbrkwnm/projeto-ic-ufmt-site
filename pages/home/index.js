@@ -24,7 +24,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Powered by Noboru, Profeta, AdrianoII, Chico, Rolinha, Isa e
+                    Powered by Noboru, O Profeta, AdrianoII, Chico, Rolinha, Isa e
                     Matherson
                 </a>
             </footer>
