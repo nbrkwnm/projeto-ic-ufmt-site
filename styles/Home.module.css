@@ -1,34 +1,3 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color: #004a8d;
-    position: absolute;
-    top: 0;
-}
-
-.headerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.headerTitle {
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.logo {
-    height: 100px;
-    position: absolute;
-    padding: 0 5px;
-    left: 0;
-}
-
 .container {
     min-height: 100vh;
     display: flex;
@@ -44,18 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.footer {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 100px;
-    position: absolute;
-    bottom: 0;
 }
 
 .footer img {
