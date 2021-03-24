@@ -7,7 +7,7 @@ import {
     Logo,
     HeaderTitle,
     Footer,
-} from '../home/styles';
+} from '../../styles/Home';
 
 export default function Home() {
     return (
