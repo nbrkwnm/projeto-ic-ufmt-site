@@ -1,13 +1,6 @@
 import Head from 'next/head';
 
-import {
-    Container,
-    Header,
-    ItemContainer,
-    Logo,
-    HeaderTitle,
-    Footer,
-} from '../../styles/Home';
+import { Container, Header, ItemContainer, Logo, HeaderTitle, Footer } from '../../styles/Home';
 
 export default function Home() {
     return (
@@ -34,8 +27,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Powered© by Noboru, O Profeta, AdrianoII, Chico, Rolinha,
-                    Isa e Matherson
+                    Powered© by Noboru, O Profeta, AdrianoII, Chico, Rolinha, Isa e Matherson
                 </a>
             </Footer>
         </Container>
