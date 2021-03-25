@@ -27,7 +27,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Powered© by Noboru, O Profeta, AdrianoII, Chico, Rolinha, Isa e Matherson
+                    Powered© by the entire of IC community
                 </a>
             </Footer>
         </Container>
