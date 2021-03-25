@@ -4,8 +4,7 @@ Este projeto tem com objetivo recriar layout e funcionalidades para o site do IC
 
 ```shell
 npm install
-npm build
-npm start
+npm run dev
 ```
 
 ## Ferramentas utilizadas
