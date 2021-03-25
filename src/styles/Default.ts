@@ -1,17 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-`;
+export const Container = styled.div``;
 
 export const Header = styled.header`
     display: flex;
-    flex-direction: row;
     flex: 1;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     height: 50px;
@@ -20,23 +14,11 @@ export const Header = styled.header`
     top: 0;
 `;
 
-export const ItemContainer = styled.div`
+export const Body = styled.body`
     display: flex;
     flex: 1;
-    justify-content: space-evenly;
-`;
-
-export const Logo = styled.img`
-    height: 50px;
-    position: absolute;
-    left: 0;
-    padding: 5px;
-`;
-
-export const HeaderTitle = styled.p`
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
+    flex-direction: row;
+    padding: 10% 10%;
 `;
 
 export const Footer = styled.footer`
@@ -48,4 +30,20 @@ export const Footer = styled.footer`
     align-items: center;
     position: absolute;
     bottom: 0;
+`;
+
+export const HeaderLogo = styled.img`
+    height: 50px;
+`;
+
+export const HeaderItemContainer = styled.div`
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+`;
+
+export const HeaderLink = styled.a`
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 `;
