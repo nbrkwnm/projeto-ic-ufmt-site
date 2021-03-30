@@ -27,16 +27,16 @@ export default function App() {
                     <Link href="/" passHref>
                         <HeaderLink>Institucional</HeaderLink>
                     </Link>
-                    <Link href="/" passHref>
+                    <Link href="/research" passHref>
                         <HeaderLink>Pesquisa</HeaderLink>
                     </Link>
-                    <Link href="/" passHref>
+                    <Link href="/extension" passHref>
                         <HeaderLink>Extensão</HeaderLink>
                     </Link>
-                    <Link href="/" passHref>
+                    <Link href="/ca" passHref>
                         <HeaderLink>Centro Acadêmico</HeaderLink>
                     </Link>
-                    <Link href="/" passHref>
+                    <Link href="/trojan" passHref>
                         <HeaderLink>Atlética Trojan</HeaderLink>
                     </Link>
                 </HeaderItemContainer>
