@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Home from './home';
+import Home from '../components/home';
 
 import {
     Body,
@@ -28,10 +28,10 @@ const App: FC = () => (
                 <Link href="/" passHref>
                     <HeaderLink>Institucional</HeaderLink>
                 </Link>
-                <Link href="/research" passHref>
+                <Link href="/pesquisa" passHref>
                     <HeaderLink>Pesquisa</HeaderLink>
                 </Link>
-                <Link href="/extension" passHref>
+                <Link href="/extensao" passHref>
                     <HeaderLink>Extensão</HeaderLink>
                 </Link>
                 <Link href="/ca" passHref>
