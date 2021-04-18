@@ -49,7 +49,7 @@ const App: FC = () => (
 
         <Footer>
             <a
-                href="//github.com/nbrkwnm/projeto-ic-ufmt-site/issues"
+                href="//https://github.com/nbrkwnm/projeto-ic-ufmt-site/graphs/contributors"
                 target="_blank"
                 rel="noopener noreferrer"
             >
