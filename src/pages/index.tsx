@@ -49,11 +49,11 @@ const App: FC = () => (
 
         <Footer>
             <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                href="//github.com/nbrkwnm/projeto-ic-ufmt-site/issues"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Powered© by the entire of IC community
+                Powered© by the IC Community
             </a>
         </Footer>
     </Container>
