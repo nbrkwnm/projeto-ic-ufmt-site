@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-// import { Container } from './styles';
-
-const Trojan: React.FC = () => {
+const Trojan: FC = () => {
     return <h1>trojan</h1>;
 };
 

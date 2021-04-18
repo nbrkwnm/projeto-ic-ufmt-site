@@ -1,5 +1,6 @@
+import React, { FC } from 'react';
+
 import { Container } from '../../styles/Home';
 
-export default function Home() {
-    return <Container></Container>;
-}
+const Home: FC = () => <Container />;
+export default Home;

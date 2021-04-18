@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 // import { Container } from './styles';
 
-const CA: React.FC = () => {
+const CA: FC = () => {
     return <h1>ca</h1>;
 };
 
