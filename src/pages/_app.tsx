@@ -1,6 +1,16 @@
-import '../styles/globals.css';
-import { AppProps } from 'next/app';
+import '../styles/global.scss';
 
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+import { Header } from '../components/Header';
+
+import styles from '../styles/app.module.scss';
+
+export default function App({ Component, pageProps }) {
+	return (
+		<div className={styles.wrapper}>
+			<main>
+				<Header />
+				<Component {...pageProps} />
+			</main>
+		</div>
+	);
 }

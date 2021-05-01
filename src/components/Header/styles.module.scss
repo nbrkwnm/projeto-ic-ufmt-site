@@ -1,0 +1,25 @@
+.headerContainer {
+	background: var(--blue-500);
+	height: 5rem;
+
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-between;
+	
+	padding: 2rem 0;
+
+	border-bottom: 1px solid var(--gray-500);
+
+	strong {
+		margin: 0.875rem;
+		padding: 0.25rem 2rem 0.25rem 0rem;
+		text-transform: capitalize;
+	}
+
+	.menuContainer {
+		padding: 0 2rem;
+	}
+}
+
+
